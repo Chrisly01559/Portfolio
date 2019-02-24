@@ -1,0 +1,163 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .5)), url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*------------------ index.html css----------- */
+/* navbar */
+.nav-logo {
+  font-size: 2rem;
+}
+.nav-pages {
+  font-size: 1.5rem;
+}
+
+.active-text {
+  color: #6D63FF;
+}
+
+/* end of navbar */
+
+/*headers and header-animation */
+.bg-color {
+  background: #4e54c8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e54c8, #8f94fb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e54c8, #8f94fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+}
+.header-text {
+  animation-name: animation1;
+  animation-duration: 1s;
+}
+@keyframes animation1 {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translatex(0);
+    opacity: 1;
+  }
+}
+/* end of header */
+
+/* introduction and row-animation
+  please note some animation are use on other pages
+*/
+.image1 {
+  max-height: 400px;
+  max-width: 500px;
+}
+
+@media (max-width: 1000px) {
+  .navbar  {
+    background: grey;
+  }
+  .image1 {
+    height: 250px;
+    width: 300px;
+  }
+
+  #home-header {
+    margin-top: 100px;
+  }
+
+  #portfolio-header {
+    margin-top: 100px;
+  }
+}
+
+.intro-row {
+  animation-name: animation2;
+  animation-duration: 3s;
+}
+@keyframes animation2 {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translatex(0);
+    opacity: 1;
+  }
+}
+
+.intro-row1 {
+  animation-name: animation3;
+  animation-duration: 3s;
+}
+@keyframes animation3 {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translatex(0);
+    opacity: 1;
+  }
+}
+
+/* end of introduction */
+
+/* footer */
+
+#main-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#main-footer .footer-wrapper {
+  height: 70px;
+}
+
+
+/*------------------ portfolio css----------- */
+
+/* projects */
+.port-header {
+  margin-top: 100px;
+}
+.card-overlay-text {
+  border-radius: 20px;
+  background-color: #4e54c8;
+}
+
+.box-shawdows {
+  border: 3px solid black;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+}
+
+
+/* end of projects */
+
+/* footer */
+
+@media (min-width: 691px) {
+  #portfolio-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
+/* end of footer */
+
+/*------------------ contact css----------- */
+.contact-row {
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+}
+
+/* footer */
+
+#contact-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

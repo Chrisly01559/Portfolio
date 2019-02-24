@@ -1,0 +1,64 @@
+/* navbar */
+.navbar .nav-item.active {
+  border-left: 3px solid #444;
+}
+
+/* carousel */
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/image1.jpg');
+}
+
+.carousel-image-2 {
+  background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/image2.jpg');
+}
+
+.carousel-image-3 {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url('../img/image3.jpg');
+}
+
+/* end of carousel */
+
+/* home-heading */
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url('../img/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+/* videoplay */
+#video-play {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/media.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 200px;
+}
+
+/* end of videoplay */
+
+/* --------------------------- end of index.html ---------------------------------------- */
+
+/* --------------------------- about.html ---------------------------------------- */
+
+/* header */
+
+#page-header {
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/image1.jpg');
+  background-position: 0 -360px;
+}
+
+/* end of header */
+
+.about-img {
+  margin-top: -50px;
+}
+
+/* about */
